@@ -1,0 +1,123 @@
+site_name: CSIRT-MU Writeups
+
+theme:
+  name: material
+  locale: en
+  custom_dir: overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: https://cdn.muni.cz/media/3177659/csirtmu-favicon.ico"
+  logo: assets/logo-cropped.png
+
+  features:
+    - content.tabs.link # Linked code tabs
+    - content.code.copy # Code copy button
+    - navigation.tracking # Anchor tracking
+    - navigation.top # Back-to-top button
+    - navigation.expand # Expand navigation
+    - search.highlight # Highlight searched terms
+    - toc.follow  # Anchor following
+plugins:
+  - search:
+      lang: en
+  - include-markdown
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+  - Home: index.md
+  - Blog:
+      - "eSCL protocol": content/blog/escl.md
+  - "Hack The Box":
+      - Editorial: content/htb/Editorial/writeup.md
+      - Codify: content/htb/Codify/writeup.md
+      - Devvortex: content/htb/Devvortex/writeup.md
+      - Broker: content/htb/Broker/writeup.md
+      - TwoMillion: content/htb/TwoMillion/writeup.md
+      - Editorial: content/htb/Editorial/writeup.md
+      - Chemistry: content/htb/Chemistry/writeup.md
+      - LinkVortex: content/htb/LinkVortex/writeup.md
+      - Titanic: content/htb/Titanic/writeup.md
+      - Alert: content/htb/Alert/writeup.md
+      - Cypher: content/htb/Cypher/writeup.md
+      - Heal: content/htb/Heal/writeup.md
+      - Nocturnal: content/htb/Nocturnal/writeup.md
+      - Planning: content/htb/Planning/writeup.md
+      - Artificial: content/htb/Artificial/writeup.md
+      - Outbound: content/htb/Outbound/writeup.md
+      - MonitorsThree: content/htb/MonitorsThree/writeup.md
+
+
+
+extra: # Remove "Made with MkDocs" footer
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+
+copyright: "© <script> document.write(new Date().getFullYear()); </script> CSIRT-MU"

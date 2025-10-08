@@ -1,0 +1,7 @@
+{{ page.content }}
+{% if page.meta.authors %}
+  <p class="author" style="font-size: 0.9em;">
+  Written by {{ page.meta.authors | join(', ') }} - {{ page.meta.date }}
+  </p>
+{% endif %}
+
