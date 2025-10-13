@@ -102,7 +102,7 @@ You might be able to scan sensitive documents left in the scanner with employee 
 
 This can lead to **GDPR violations and breach of confidentiality**.
 
-Full PoC code is available [here](https://github.com/matejsmycka/Scanner-eSCL-Document-Download-PoC/blob/main/scan_and_save.py). 
+Full PoC code is available [here](https://github.com/CSIRT-MU/Scanner-eSCL-Document-Download-PoC/blob/main/scan_and_save.py). 
 
 ## Security implications
 
