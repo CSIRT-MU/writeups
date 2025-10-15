@@ -107,8 +107,6 @@ nav:
       - Heal: content/htb/Heal/writeup.md
       - Nocturnal: content/htb/Nocturnal/writeup.md
       - Planning: content/htb/Planning/writeup.md
-      - Artificial: content/htb/Artificial/writeup.md
-      - Outbound: content/htb/Outbound/writeup.md
       - MonitorsThree: content/htb/MonitorsThree/writeup.md
 
 
