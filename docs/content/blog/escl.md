@@ -143,7 +143,6 @@ Sending malformed requests to printer ports (e.g., 9100/JetDirect) can cause the
 
 ## References
 
-- [^1] https://wiki.debian.org/eSCL
-- [^2] https://support.princh.com/en/the-onboarding-process-1
-- [^3] https://github.com/xJonathanLEI/escl-rs
-- [^4] https://github.com/alexpevzner/sane-airscan
+[^1]: https://wiki.debian.org/eSCL
+[^2]: https://support.princh.com/en/the-onboarding-process-1
+[^4]: https://github.com/alexpevzner/sane-airscan
