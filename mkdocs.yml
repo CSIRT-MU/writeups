@@ -91,7 +91,8 @@ nav:
   - Home: index.md
   - Blog:
       - "eSCL protocol": content/blog/escl.md
-  - "Hack The Box Machines":
+  - Hack The Box:
+    - Machines:
       - Agile: content/htb/Machines/Agile/writeup.md
       - Alert: content/htb/Machines/Alert/writeup.md
       - Analytics: content/htb/Machines/Analytics/writeup.md
@@ -140,7 +141,7 @@ nav:
       - Wifinetic: content/htb/Machines/Wifinetic/writeup.md
       - WifineticTwo: content/htb/Machines/WifineticTwo/writeup.md
       - Zipping: content/htb/Machines/Zipping/writeup.md
-  - "Hack The Box Challenges":
+    - Challenges:
       - Crypto-rlotto: content/htb/Challenges/crypto-rlotto.md
       - Crypto-the-last-dance: content/htb/Challenges/crypto-the-last-dance.md
       - Misc-canvas: content/htb/Challenges/misc-canvas.md
