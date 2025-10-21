@@ -1,3 +1,9 @@
+---
+authors:
+    - Lukas Daubner
+date: 16-01-2024
+---
+
 # Web - ApacheBlaze
 
 It is a simple web application, you click and some text will pop-up.

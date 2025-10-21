@@ -1,3 +1,9 @@
+---
+authors:
+    - Lukas Daubner
+date: 16-01-2024
+---
+
 # Forensics - Diagnostic
 
 The downloaded file looks like a word document. Calling `file diagnostic.doc` tells:

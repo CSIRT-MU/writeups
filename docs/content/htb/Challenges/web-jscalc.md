@@ -1,3 +1,9 @@
+---
+authors:
+    - Lukas Daubner
+date: 16-01-2024
+---
+
 # Web - jscalc
 
 On the website, there is an input which says: `A super secure Javascript calculator with the help of eval() 🤮` Ok, the `eval` seems interesting, as it is THE insecure function in JS.

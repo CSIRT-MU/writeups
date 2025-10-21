@@ -1,3 +1,9 @@
+---
+authors:
+    - Lukas Daubner
+date: 16-01-2024
+---
+
 # Precious
 
 1. update hosts

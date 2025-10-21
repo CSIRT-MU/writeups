@@ -1,3 +1,9 @@
+---
+authors:
+    - Lukas Daubner
+date: 16-01-2024
+---
+
 # Web - Toxic
 
 By inspecting the code, we can see deserialisation of a cookie.

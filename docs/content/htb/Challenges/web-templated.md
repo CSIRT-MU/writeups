@@ -1,3 +1,9 @@
+---
+authors:
+    - Lukas Daubner
+date: 16-01-2024
+---
+
 # Web - Templated
 
 The web says that it uses Jinja and Python So we try to inject stuff to the template

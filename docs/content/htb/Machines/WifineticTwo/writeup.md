@@ -1,3 +1,9 @@
+---
+authors:
+    - Lukas Daubner
+date: 16-01-2024
+---
+
 # WifineticTwo
 
 Fair warning first. The box is quite unstable. You might need few restarts now and there to get it working.

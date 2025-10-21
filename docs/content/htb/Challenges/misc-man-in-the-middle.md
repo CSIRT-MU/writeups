@@ -1,3 +1,9 @@
+---
+authors:
+    - Lukas Daubner
+date: 16-01-2024
+---
+
 # Misc - Man in the middle
 
 First by simply reading the data we can see the textual header teling us that this is a `btsnoop` file. That can be analysed using `btmon` or `Wireshark`. While the prior can give some statistical information, we need to use Wireshark.

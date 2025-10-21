@@ -1,3 +1,9 @@
+---
+authors:
+    - Lukas Daubner
+date: 16-01-2024
+---
+
 # Crypto - RLotto
 
 After accessing the app using browser, you can see a lot of gibberish. So, let's try it in telnet. `telnet 167.99.82.136 30363` And it's way better.

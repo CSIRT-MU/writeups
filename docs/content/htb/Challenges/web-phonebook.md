@@ -1,3 +1,9 @@
+---
+authors:
+    - Lukas Daubner
+date: 16-01-2024
+---
+
 # Web - Phonebook
 
 The app has login using ActiveDirectory So we try LDAP injection https://book.hacktricks.xyz/pentesting-web/ldap-injection

@@ -1,3 +1,9 @@
+---
+authors:
+    - Lukas Daubner
+date: 16-01-2024
+---
+
 # Crypto - xorxorxor
 
 Looking at the code, I can see that the entire thing is using only XORs. However, a particular part pokes my attention:

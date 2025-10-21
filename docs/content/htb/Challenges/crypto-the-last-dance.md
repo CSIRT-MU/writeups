@@ -1,3 +1,9 @@
+---
+authors:
+    - Lukas Daubner
+date: 16-01-2024
+---
+
 # Crypto - The Last Dance
 
 This challange was for the stream cyphers.

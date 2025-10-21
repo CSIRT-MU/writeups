@@ -1,3 +1,9 @@
+---
+authors:
+    - Lukas Daubner
+date: 16-01-2024
+---
+
 # Busqueda
 
 https://demo.hedgedoc.org/e9a54JZjSsyjwig6RUWQuA#

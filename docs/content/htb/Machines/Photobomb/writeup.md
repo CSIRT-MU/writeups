@@ -1,3 +1,9 @@
+---
+authors:
+    - Lukas Daubner
+date: 16-01-2024
+---
+
 # Photobomb
 
 https://0xdf.gitlab.io/2023/02/11/htb-photobomb.html

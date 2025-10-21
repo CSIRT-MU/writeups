@@ -1,3 +1,9 @@
+---
+authors:
+    - Lukas Daubner
+date: 16-01-2024
+---
+
 # Misc - Deterministic
 
 The challange is presented with a text file containing 3-tuples, and a note saying some important details.

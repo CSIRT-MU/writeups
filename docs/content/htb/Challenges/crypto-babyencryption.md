@@ -1,3 +1,9 @@
+---
+authors:
+    - Lukas Daubner
+date: 16-01-2024
+---
+
 # Crypto - BabyEncryption
 
 The encryption does not use any secret information. Just modular aritmetirc, which makes it tricky to reverse. That makes it a substitutional cypher.

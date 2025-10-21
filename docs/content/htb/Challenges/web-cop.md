@@ -1,3 +1,9 @@
+---
+authors:
+    - Lukas Daubner
+date: 16-01-2024
+---
+
 # Web - C.O.P
 
 It is a simple Flask (Python) eshop-like app getting inventory from database and displays it. There are only two endpoints, displaying the whole inventory and one item.
