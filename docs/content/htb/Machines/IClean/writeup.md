@@ -170,7 +170,7 @@ That gave us some really nice and interesting hits. <http://capiclean.htb/login>
 
 #### Wappalyzer
 
-I do not see obvious hints on the technology. So, let's look on Wappalyzer. It is a Chrome extension.  ![044935139edca5dde116dad06739a6c4.png](:/b5b0bf7a6a794a85b0f358086a7f677a) So, it is Python
+I do not see obvious hints on the technology. So, let's look on Wappalyzer. It is a Chrome extension. So, it is Python
 
 ### Site Interaction
 
