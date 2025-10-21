@@ -31,7 +31,6 @@ theme:
     - content.code.copy # Code copy button
     - navigation.tracking # Anchor tracking
     - navigation.top # Back-to-top button
-    - navigation.expand # Expand navigation
     - search.highlight # Highlight searched terms
     - toc.follow  # Anchor following
 plugins:
@@ -92,24 +91,75 @@ nav:
   - Home: index.md
   - Blog:
       - "eSCL protocol": content/blog/escl.md
-  - "Hack The Box":
-      - Editorial: content/htb/Editorial/writeup.md
-      - Codify: content/htb/Codify/writeup.md
-      - Devvortex: content/htb/Devvortex/writeup.md
-      - Broker: content/htb/Broker/writeup.md
-      - TwoMillion: content/htb/TwoMillion/writeup.md
-      - Editorial: content/htb/Editorial/writeup.md
-      - Chemistry: content/htb/Chemistry/writeup.md
-      - LinkVortex: content/htb/LinkVortex/writeup.md
-      - Titanic: content/htb/Titanic/writeup.md
-      - Alert: content/htb/Alert/writeup.md
-      - Cypher: content/htb/Cypher/writeup.md
-      - Heal: content/htb/Heal/writeup.md
-      - Nocturnal: content/htb/Nocturnal/writeup.md
-      - Planning: content/htb/Planning/writeup.md
-      - MonitorsThree: content/htb/MonitorsThree/writeup.md
-      - Visual: content/htb/Visual/writeup.md
-
+  - Hack The Box:
+    - Machines:
+      - Agile: content/htb/Machines/Agile/writeup.md
+      - Alert: content/htb/Machines/Alert/writeup.md
+      - Analytics: content/htb/Machines/Analytics/writeup.md
+      - Authority: content/htb/Machines/Authority/writeup.md
+      - Backdoor: content/htb/Machines/Backdoor/writeup.md
+      - Bizness: content/htb/Machines/Bizness/writeup.md
+      - Broker: content/htb/Machines/Broker/writeup.md
+      - Broscience: content/htb/Machines/Broscience/writeup.md
+      - Busqueda: content/htb/Machines/Busqueda/writeup.md
+      - Chemistry: content/htb/Machines/Chemistry/writeup.md
+      - Clicker: content/htb/Machines/Clicker/writeup.md
+      - Codify: content/htb/Machines/Codify/writeup.md
+      - Crafty: content/htb/Machines/Crafty/writeup.md
+      - Cypher: content/htb/Machines/Cypher/writeup.md
+      - Devvortex: content/htb/Machines/Devvortex/writeup.md
+      - Editorial: content/htb/Machines/Editorial/writeup.md
+      - Escape: content/htb/Machines/Escape/writeup.md
+      - Headless: content/htb/Machines/Headless/writeup.md
+      - Heal: content/htb/Machines/Heal/writeup.md
+      - Hospital: content/htb/Machines/Hospital/writeup.md
+      - IClean: content/htb/Machines/IClean/writeup.md
+      - Keeper: content/htb/Machines/Keeper/writeup.md
+      - LinkVortex: content/htb/Machines/LinkVortex/writeup.md
+      - Manager: content/htb/Machines/Manager/writeup.md
+      - MetaTwo: content/htb/Machines/MetaTwo/writeup.md
+      - MonitorsThree: content/htb/Machines/MonitorsThree/writeup.md
+      - MonitorsTwo: content/htb/Machines/MonitorsTwo/writeup.md
+      - Nocturnal: content/htb/Machines/Nocturnal/writeup.md
+      - PC: content/htb/Machines/PC/writeup.md
+      - Perfection: content/htb/Machines/Perfection/writeup.md
+      - Photobomb: content/htb/Machines/Photobomb/writeup.md
+      - Pilgrimage: content/htb/Machines/Pilgrimage/writeup.md
+      - Planning: content/htb/Machines/Planning/writeup.md
+      - Pov: content/htb/Machines/Pov/writeup.md
+      - Precious: content/htb/Machines/Precious/writeup.md
+      - Previse: content/htb/Machines/Previse/writeup.md
+      - Sau: content/htb/Machines/Sau/writeup.md
+      - Shoppy: content/htb/Machines/Shoppy/writeup.md
+      - Soccer: content/htb/Machines/Soccer/writeup.md
+      - Surveillance: content/htb/Machines/Surveillance/writeup.md
+      - Titanic: content/htb/Machines/Titanic/writeup.md
+      - Topology: content/htb/Machines/Topology/writeup.md
+      - TwoMilion: content/htb/Machines/TwoMilion/writeup.md
+      - TwoMillion: content/htb/Machines/TwoMillion/writeup.md
+      - Visual: content/htb/Machines/Visual/writeup.md
+      - Wifinetic: content/htb/Machines/Wifinetic/writeup.md
+      - WifineticTwo: content/htb/Machines/WifineticTwo/writeup.md
+      - Zipping: content/htb/Machines/Zipping/writeup.md
+    - Challenges:
+      - Crypto-rlotto: content/htb/Challenges/crypto-rlotto.md
+      - Crypto-the-last-dance: content/htb/Challenges/crypto-the-last-dance.md
+      - Misc-canvas: content/htb/Challenges/misc-canvas.md
+      - Misc-deterministic: content/htb/Challenges/misc-deterministic.md
+      - Misc-man-in-the-middle: content/htb/Challenges/misc-man-in-the-middle.md
+      - Web-apacheblaze: content/htb/Challenges/web-apacheblaze.md
+      - Web-cop: content/htb/Challenges/web-cop.md
+      - Web-insomnia: content/htb/Challenges/web-insomnia.md
+      - Web-jscalc: content/htb/Challenges/web-jscalc.md
+      - Web-lovetok: content/htb/Challenges/web-lovetok.md
+      - Web-neonify: content/htb/Challenges/web-neonify.md
+      - Web-petpet-rcbee: content/htb/Challenges/web-petpet-rcbee.md
+      - Web-phonebook: content/htb/Challenges/web-phonebook.md
+      - Web-proxyasaservice: content/htb/Challenges/web-proxyasaservice.md
+      - Web-renderquest: content/htb/Challenges/web-renderquest.md
+      - Web-saturn: content/htb/Challenges/web-saturn.md
+      - Web-templated: content/htb/Challenges/web-templated.md
+      - Web-toxic: content/htb/Challenges/web-toxic.md
 
 
 extra: # Remove "Made with MkDocs" footer
