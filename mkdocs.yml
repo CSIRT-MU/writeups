@@ -91,6 +91,8 @@ nav:
   - Home: index.md
   - Blog:
       - "eSCL protocol": content/blog/escl.md
+  - The Catch:
+      - "The Catch 2025 Writeup": content/thecatch/2025.md
   - Hack The Box:
     - Machines:
       - Agile: content/htb/Machines/Agile/writeup.md
